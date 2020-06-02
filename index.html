@@ -2,19 +2,23 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/scripts.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="scripts.js"></script>
     <title>Peek-a-boo</title>
   </head>
   <body>
     <div class="container">
       <h1>Peek-a-boo</h1>
-
-      <p>Let's play peek-a-boo. Click here to see the surprise!</p>
-
-      <div class="walrus-showing">
-        <img src="img/walrus.jpg">
+      <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent children's pastime, you may change your mind when you learn of its treacherous history.</p>
+  
+      <div id="walrus-hidden">
+        <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
+      </div>
+  
+      <div id="walrus-showing">
+        <p>What a cute walrus! <span class="clickable">Click here</span> to hide her again.</p>
+        <img src="https://cdn.pixabay.com/photo/2013/07/13/11/57/tusk-159025_1280.png">
       </div>
     </div>
   </body>
