@@ -1,17 +1,21 @@
-#walrus-showing {
+#walrus-showing, #sealShowing, #seagullShowing {
   display: none;
 }
 
-#walrus-showing img {
+#sealPicture {
+  display: none;
+}
+
+img {
   height: 400px;
   width: 400px;
 }
 
-.clickable {
+#walrusClickable, #sealClickable, #seagullClickable {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+#walrusClickable:hover, #sealClickable:hover, #seagullClickable:hover {
   text-decoration: underline;
 }

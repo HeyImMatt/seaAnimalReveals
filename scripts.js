@@ -1,12 +1,14 @@
 $(document).ready(function() {
-  $('.clickable').click(function() {
+  $('#walrusClickable').click(function() {
     $('#walrus-showing').toggle();
-    $('#walrus-hidden').toggle();
   });
 
-  $('.clickable').click(function() {
-    $('#peekABoo').fadeOut();
-    $('#peekABoo').fadeIn();
+  $('#sealClickable').click(function() {
+    $('#sealShowing').toggle();
+  });
+
+  $('#seagullClickable').click(function() {
+    $('#seagullShowing').toggle();
   });
 });
 
